@@ -1,0 +1,1211 @@
+@font-face {
+    font-family: 'TT_Norms_Pro';
+    src: url('fonts/TT\ Norms\ Pro\ Black949a302bdd8ede7200e216faf2bbbbc4aaae2ecb3d2e352e7f3b4adcd949d5db.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('fonts/Inter-Black.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('fonts/Inter-Medium.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('fonts/Inter-Regular.otf') format('truetype');
+}
+html, body{
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden
+}
+button {
+    cursor: pointer;
+    padding: 0px;
+    border:none;
+    background:none;
+}
+.container_1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#menu {
+    position:absolute;
+    top:40px;
+    left:35px;
+}
+#logo {
+    position:absolute;
+    top:20px;
+    left:560px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+    
+
+}
+#language {
+    position:absolute;
+    top:40px;
+    right:65px;
+    font-family: "Inter-Black";
+    font-weight:bold;
+    font-size:13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#wartosc {
+    position:absolute;
+    bottom: 150px;
+    left: 320px;
+    font-family:"TT_Norms_Pro";
+    font-weight:bold;
+    line-height: 60px;
+    font-size:52px;
+    text-align: center;
+    letter-spacing: -1px;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+#cz_1{
+    margin-top:80px;
+    font-family:"TT_Norms_Pro";
+    font-weight:bold;
+    line-height: 44px;
+    font-size:40px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+#cz_2{
+    margin-top:-15px;
+    color:  #1E3CC8;
+    font-family:"TT_Norms_Pro";
+    font-weight:bold;
+    line-height: 44px;
+    font-size:40px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.ikonki {
+    text-align:center;
+    margin-top: 100px;
+}
+.ikonki h3{
+    margin-top: 20px;
+    font-family: "Inter-Medium";
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.ikonki p{
+    margin-top: 20px;
+    font-family: "Inter-Regular";
+    font-size: 15px;
+    line-height: 24px;
+    color:#808080;
+}
+
+.grafika {
+    margin-top:200px;
+    
+}
+#dowiedzsie_wiecej{
+    position:absolute;
+    top:175px;
+    left:465px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%)
+    
+}
+.container_3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#about_us{
+    position:absolute;
+    top:50px;
+    left:80px;
+    top: 50%;
+    transform: translate(0%, -50%)
+}
+#o_firmie{
+    font-family:"TT_Norms_Pro";
+    font-size:40px;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.about{
+    font-family:"Inter-Regular";
+    font-size:15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+#lokalizacja{
+    font-family:"Inter-Black";
+    font-size:15px;
+    letter-spacing: 4px;
+    line-height:28px;
+    font-weight:bold;
+}
+#wiecej{
+    margin-top:40px;
+}
+.container_4{
+    position: relative;
+    text-align: center;
+}
+#produkty{
+    position:absolute;
+    top:80px;
+    left:300px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0%);
+    
+}
+#marki_wlasne{
+    font-family: "TT_Norms_Pro";
+    font-size:40px;
+    letter-spacing: -1px;
+    line-height:48px;
+}
+#marki{
+    text-transform: uppercase;
+    font-family:"Inter-Medium";
+    font-size:15px;
+    letter-spacing: 2px;
+    line-height:28px;
+    color:#808080;
+}
+#drinki h3{
+    font-family:"Inter-Black";
+    font-size:16px;
+    letter-spacing: 2px;
+    line-height:20px;
+    text-align: center;
+    
+
+}
+#kuala{
+    text-decoration: underline;
+}
+#drinki p{
+    font-family:"Inter-Regular";
+    font-size:14px;
+    letter-spacing:2px;
+    line-height:24px;
+    color:#808080;
+    text-align: center;
+}
+.container_5{
+position: relative;
+text-align: center;
+}
+#drinki{
+    position:absolute;
+    top:-10px;
+    left:150px;
+    top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.cydr{
+    margin-left: 20px; padding-left: 20px; margin-top: 25px; padding-top: 25px;margin-right: 30px; padding-right: 30px;margin-bottom:3px;padding-bottom:3px
+}
+.energy_drink{
+    margin-left: 40px; padding-left: 40px;margin-top: 30px; padding-top: 30px;margin-right: 23px; padding-right: 23px;margin-bottom:9px;padding-bottom:9px
+}
+.kualaa{
+    margin-left: 23px; padding-left: 23px;margin-top: 19px; padding-top: 19px;margin-bottom:-70px;padding-bottom:-70px
+}
+
+.container_6{
+    position: relative;
+    text-align: center;
+
+}
+#strzalki{
+    position:absolute;
+    top:5px;
+    left:525px;
+    top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+.container_7{
+    position: relative;
+    text-align: center;
+    
+}
+#certyfikaty {
+    position:absolute;
+    top:60px;
+    left:230px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+#miedzynarodowe{
+    font-family: "TT_Norms_Pro";
+    font-size:40px;
+    letter-spacing: 1px;
+    line-height: 48px;
+    color:#fff;
+    
+}
+
+#jakosc{
+    margin-top: 30px;
+    color:#fff;
+    font-family: "Inter-Black";
+    font-size:15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.znaczek_1{
+margin-left: -5px; padding-left: -5px; margin-top: 10px; padding-top: 10px;margin-right: -10px; padding-right: -10px;margin-bottom:3px;padding-bottom:3px
+}
+.znaczek_2{
+ margin-left: -10px; padding-left: -10px;margin-top: 23px; padding-top: 23px;margin-bottom:3px;padding-bottom:3px
+}
+.znaczek_3{
+    margin-left: 10px; padding-left: 10px;margin-top: 28px; padding-top: 28px;margin-right: 10px; padding-right: 10px;margin-bottom:3px;padding-bottom:3px
+}
+.znaczek_4{
+    margin-top: 20px; padding-top: 20px;
+}
+.znaczek_5{
+    margin-top: 20px; padding-top: 20px;
+}
+.znaczek_6{
+    margin-top: 20px; padding-top: 20px;
+}
+.skontaktuj{
+    margin-top: 22.5px; 
+    padding-top: 22.5px;
+}
+
+.container_8{
+    position: relative;
+    text-align: center;
+}
+#firmy{
+    position:absolute;
+    top:30px;
+    left:90px;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+}
+#zaufanie{
+    font-family: "Inter-Black";
+    font-size:13px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color:#fff;
+    text-transform: uppercase;
+}
+.carrefour{
+    margin-left: 5px; 
+    padding-left: 5px;
+    margin-right:15px;
+    padding-right:15px;
+}
+.walmart{
+    margin-left: 15px;
+     padding-left: 15px;
+     margin-right:15px;
+     padding-right:15px;
+}
+.jeronimo_martins{
+    margin-left: 15px; 
+    padding-left: 15px;
+    margin-right:10px;
+    padding-right:10px;
+}
+.zabka{
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-right:7px;
+    padding-right:7px;
+}
+.tesco{
+    margin-left: 7px;
+    padding-left: 7px;
+    margin-right:10px;
+    padding-right:10px;
+}
+.container_9{
+    text-align: left;
+    position: relative;
+
+}
+#navigation{
+    position:absolute;
+    top:50px;
+    left:110px;
+    color:white;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+.o_nas{
+    font-family:"Inter-Black";
+    font-size:14px;
+    letter-spacing: 2.5px;
+    line-height: 24px;
+    margin-bottom:20px;
+    margin-right:20px;
+}
+.details{
+    font-family:"Inter-Regular";
+    font-size:13px;
+    line-height: 10px;
+    white-space:nowrap;
+    
+}
+#mail{
+    font-family:"TT_Norms_Pro";
+    font-size:27px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    margin-left:20px;
+    margin-bottom:30px;
+}
+#o_nas{
+    margin-left:20px;
+    margin-bottom:23px;
+    
+}
+#browarna{
+    margin-left:20px;
+    line-height: 5px;
+}
+#piotrkow{
+    margin-left:20px;
+    line-height: 5px;
+}
+#polska{
+    margin-left:20px;
+    line-height: 5px;
+}
+.details_1{
+        font-family:"Inter-Regular";
+        font-size:13px;
+        line-height: 10px;
+        white-space:nowrap;
+}
+#footer{
+    position:absolute;
+    bottom:0px;
+    left:110px;
+    color:#808080;
+    text-align:right;
+    font-family:"Inter-Regular";
+    font-size:13px;
+    line-height: 20px;
+    white-space:nowrap;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+}
+.all_rights{
+margin-left:270px;
+white-space:nowrap;
+}
+.cookies{
+    margin-left:-30px;
+}
+.warunki{
+    margin-left:75px;
+    white-space:nowrap;
+}
+.polityka{
+    margin-left:-40px;
+}
+.box{
+    border: 40px solid transparent;
+    background-clip:padding-box;
+  }
+
+.box1{
+    border: 20px 20px 0px 0px solid transparent;
+    background-clip:padding-box;
+}
+
+@media all and (min-width:2560px) {
+    #menu img {
+        width: 36px;
+        height:auto;
+}
+#menu{
+    top:60px;
+    left:70px;
+}
+#logo img {
+    width:259.2px;
+    height:auto;
+}
+#logo{
+    top:40px;
+}
+#language {
+    top:65px;
+    right:135px;
+    font-size:23.4px;
+    letter-spacing: 3.6px;
+}
+#wartosc {
+    bottom: 250px;
+    line-height: 108px;
+    font-size:93.6px;
+    letter-spacing: -1px;
+}
+#cz_1{
+    margin-top:144px;
+    line-height: 79.2px;
+    font-size:72px;
+}
+#cz_2{
+    margin-top:-15px;
+    line-height: 79.2px;
+    font-size:72px;
+}
+.ikonki {
+    margin-top: 180px;
+}
+.ikonki img{
+    width:93.6px;
+    height:93.6px;
+}
+.ikonki h3{
+    margin-top: 36px;
+    font-size: 27px;
+    line-height: 39.6px;
+    letter-spacing: 5px;
+}
+.ikonki p{
+    margin-top: 36px;
+    font-size: 27px;
+    line-height: 43.2px;
+    
+}
+.grafika {
+    margin-top:360px;
+    
+}
+#dowiedzsie_wiecej{
+    top:315px;
+}
+#dowiedzsie_wiecej img{
+    width:581.4px;
+}
+#about_us{
+    left:150px;
+    top:600px;
+}
+#o_firmie{
+    font-size:72px;
+    line-height: 108px;
+}
+.about{
+    font-size:27px;
+    line-height: 43.2px;
+}
+#lokalizacja{
+    font-size:27px;
+    line-height:50.4px;
+    letter-spacing: 5px;
+}
+#wiecej{
+    margin-top:72px;
+}
+#wiecej img{
+    width:315px;
+}
+#produkty{
+    top:150px;
+    
+}
+#marki_wlasne{
+    font-size:72px;
+    line-height:86.4px;
+}
+#marki{
+    font-size:27px;
+    line-height:50.4px;
+    letter-spacing: 5px;
+}
+#drinki h3{
+    font-size:28.8px;
+    line-height:36px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#drinki p{
+    font-size:25.2px;
+    line-height:43.2px;
+    text-align: center;
+}
+#drinki{
+        top:450px;
+        left:1230px;
+        
+    
+}
+.cydr{
+    width:auto;
+    height:700px;
+    margin-left: 36px; 
+    padding-left: 36px;
+    margin-top: 65px;
+    padding-top: 65px;
+    margin-right: 35px;
+    padding-right: 35px;
+    margin-bottom:27px;
+    padding-bottom:27px;
+    
+}
+.energy_drink{
+    width:auto;
+    height:700px;
+    margin-left: 110px; padding-left: 110px;margin-top: 75px; padding-top: 75px;margin-right: 82.8px; padding-right: 82.8px;margin-bottom:16.2px;padding-bottom:16.2px;
+}
+.kualaa{
+    width:auto;
+    height:900px;
+    margin-left: 75px; padding-left: 75px;margin-top: 37px; padding-top: 37px; margin-bottom:-148px;padding-bottom:-148px;
+}
+#kuala{
+    text-decoration: underline;
+    margin-left:100px;
+    padding-left:100px;
+}
+#vodka{
+    margin-left:100px;
+    padding-left:100px;
+}
+#energy{
+    margin-left:50px;
+    padding-left:50px;
+}
+#classic{
+    margin-left:50px;
+    padding-left:50px;
+}
+
+#strzalki img{
+width:345.6px;
+height:auto;
+}
+#strzalki {
+    top:50px;
+}
+
+#certyfikaty {
+    
+    top:520px;
+    left:1270px;
+    
+}
+#miedzynarodowe{
+    font-size:72px;
+    line-height: 86.4px;
+    
+}
+
+#jakosc{
+    margin-top: 54px;
+    font-size:27px;
+    line-height: 50.4px;
+    letter-spacing: 5px;
+}
+.znaczek_1{
+    width:185.4px;
+    height:auto;
+    margin-left: -80px; padding-left: -80px; margin-top: 18px; padding-top: 18px;margin-right: -8px; padding-right: -8px;
+    margin-bottom:5.4px;padding-bottom:5.4px;
+}
+.znaczek_2{
+    width:203.4px;
+    height:auto;
+    margin-left: -8px; padding-left: -8px;margin-top: 35px; padding-top: 35px;margin-bottom:3px;padding-bottom:3px;
+}
+.znaczek_3{
+    width:187.2px;
+    height:auto;
+    margin-left: 18px; padding-left: 18px;margin-top: 50.4px; padding-top: 50.4px;margin-right: 18px; padding-right: 18px;
+    margin-bottom:5.4px;padding-bottom:5.4px;
+}
+.znaczek_4{
+    width:196.2px;
+    height:auto;
+    margin-top: 25px; padding-top: 25px; margin-left: -80px; padding-left: -80px;
+}
+.znaczek_5{
+    width:187.2px;
+    height:auto;
+    margin-top: 20px; padding-top: 20px;
+}
+.znaczek_6{
+    width:185.4px;
+    height:auto;
+    margin-top: 20px; padding-top: 20px;
+}
+.skontaktuj{
+    width:621px;
+    height:auto;
+    margin-top: 40.5px; 
+    padding-top: 40.5px;
+}
+#zaufanie{
+    font-size:23.4px;
+    letter-spacing: 3.6px;
+    line-height: 36px;
+}
+.carrefour{
+    margin-left: 18px; 
+    padding-left: 18px;
+    margin-right:27px;
+    padding-right:27px;
+    width:237.6px;
+    height:auto;
+}
+.walmart{
+    margin-left: 27px;
+     padding-left: 27px;
+     margin-right:27px;
+     padding-right:27px;
+     width:212.4px;
+    height:auto;
+}
+.jeronimo_martins{
+    margin-left: 27px; 
+    padding-left: 27px;
+    margin-right:18px;
+    padding-right:18px;
+    width:189px;
+    height:auto;
+}
+.zabka{
+    margin-left: 18px;
+    padding-left: 18px;
+    margin-right:12.6px;
+    padding-right:12.6px;
+    width:145.8px;
+    height:auto;
+}
+.tesco{
+    margin-left: 12.6px;
+    padding-left: 12.6px;
+    margin-right:18px;
+    padding-right:18px;
+    width:165.6px;
+    height:auto;
+}
+#navigation{
+    top:300px;
+    left:1300px;
+}
+.o_nas{
+    font-size:25.2px;
+    letter-spacing: 4.5px;
+    line-height: 100px;
+    margin-bottom:36px;
+    margin-right:36px;
+}
+
+.details{
+    font-size:23.4px;
+    line-height: 25px;
+    
+}
+#mail{
+    font-size:48.6px;
+    line-height: 18px;
+    letter-spacing: 1.8px;
+    margin-left:36px;
+    margin-bottom:54px;
+}
+#o_nas{
+    margin-left:36px;
+    margin-bottom:41.4px;
+    
+}
+#browarna{
+    margin-left:36px;
+    line-height: 25px;
+}
+#piotrkow{
+    margin-left:36px;
+    line-height: 25px;
+}
+#polska{
+    margin-left:36px;
+    line-height: 25px;
+}
+.details_1{
+    font-size:23.4px;
+    line-height: 25px;
+}
+#footer{
+    bottom:0px;
+    left:1300px;
+    font-size:23.4px;
+    line-height: 36px;
+}
+.all_rights{
+margin-left:486px;
+}
+.cookies{
+    margin-left:-54px;
+}
+.warunki{
+    margin-left:135px;
+}
+.polityka{
+    margin-left:-72px;
+}
+.box{
+    border: 72px solid transparent;
+  }
+
+.box1{
+    border: 36px 36px 0px 0px solid transparent;
+}
+
+}
+@media all and (max-width:1439px) {
+    #menu img {
+        width: 14.4px;
+        height:auto;
+}
+#menu{
+    top:24px;
+    left:28px;
+}
+#logo img {
+    width:103.7px;
+    height:auto;
+}
+#logo{
+    top:16px;
+}
+#language {
+    top:26px;
+    right:54px;
+    font-size:9.4px;
+    letter-spacing: 1.4px;
+}
+#wartosc {
+    bottom: 100px;
+    line-height: 43.2px;
+    font-size:37.4px;
+    letter-spacing: -0.4px;
+}
+#cz_1{
+    margin-top:57.6px;
+    line-height: 31.7px;
+    font-size:28.8px;
+}
+#cz_2{
+    margin-top:-6px;
+    line-height: 31.7px;
+    font-size:28.8px;
+}
+.ikonki {
+    margin-top: 72px;
+}
+.ikonki img{
+    width:37.4px;
+    height:37.4px;
+}
+.ikonki h3{
+    margin-top: 14.4px;
+    font-size: 10.8px;
+    line-height: 15.8px;
+    letter-spacing: 2px;
+}
+.ikonki p{
+    margin-top: 14.4px;
+    font-size: 10.8px;
+    line-height: 17.3px;
+    
+}
+.grafika {
+    margin-top:144px;
+    
+}
+#dowiedzsie_wiecej{
+    top:126px;
+}
+#dowiedzsie_wiecej img{
+    width:232.6px;
+}
+#about_us{
+    left:65.6px;
+    top:240px;
+}
+#o_firmie{
+    font-size:28.8px;
+    line-height: 43.2px;
+}
+.about{
+    font-size:10.8px;
+    line-height: 17.3px;
+}
+#lokalizacja{
+    font-size:10.8px;
+    line-height:20.2px;
+    letter-spacing: 2px;
+}
+#wiecej{
+    margin-top:28.8px;
+}
+#wiecej img{
+    width:126px;
+}
+#produkty{
+    top:60px;
+    
+}
+#marki_wlasne{
+    font-size:28.8px;
+    line-height:34.6px;
+}
+#marki{
+    font-size:10.8px;
+    line-height:20.2px;
+    letter-spacing: 2px;
+}
+#drinki h3{
+    font-size:11.5px;
+    line-height:14.4px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+#drinki p{
+    font-size:10.1px;
+    line-height:17.3px;
+    text-align: center;
+}
+#drinki{
+        top:180px;
+        left:492px;
+        
+    
+}
+.cydr{
+    width:auto;
+    height:280px;
+    margin-left: 14.4px; 
+    padding-left: 14.4px;
+    margin-top: 26px;
+    padding-top: 26px;
+    margin-right: 14px;
+    padding-right: 14px;
+    margin-bottom:10.8px;
+    padding-bottom:10.8px;
+    
+}
+.energy_drink{
+    width:auto;
+    height:280px;
+    margin-left: 44px;
+    padding-left: 44px;
+    margin-top: 30px; 
+    padding-top: 30px;
+    margin-right: 33.1px; 
+    padding-right: 33.1px;
+    margin-bottom:6.5px;
+    padding-bottom:6.5px;
+}
+.kualaa{
+    width:auto;
+    height:360px;
+    margin-left: 30px; padding-left: 30px;margin-top: 14.8px; padding-top: 14.8px; margin-bottom:-59.2px;padding-bottom:-59.2px;
+}
+#kuala{
+    text-decoration: underline;
+    margin-left:40px;
+    padding-left:40px;
+}
+#vodka{
+    margin-left:40px;
+    padding-left:40px;
+}
+#energy{
+    margin-left:20px;
+    padding-left:20px;
+}
+#classic{
+    margin-left:20px;
+    padding-left:20px;
+}
+
+#strzalki img{
+width:138.2px;
+height:auto;
+}
+#strzalki {
+    top:20px;
+}
+
+#certyfikaty {
+    
+    top:208px;
+    left:508px;
+    
+}
+#miedzynarodowe{
+    font-size:28.8px;
+    line-height: 34.6px;
+    
+}
+
+#jakosc{
+    margin-top: 21.6px;
+    font-size:10.8px;
+    line-height: 20.2px;
+    letter-spacing: 2px;
+}
+.znaczek_1{
+    width:74.2px;
+    height:auto;
+    margin-left: -32px; padding-left: -32px; margin-top: 7.2px; padding-top:7.2px;margin-right: -3.2px; padding-right: -3.2px;
+    margin-bottom:2.2px;padding-bottom:2.2px;
+}
+.znaczek_2{
+    width:81.4px;
+    height:auto;
+    margin-left: -3.2px; padding-left: -3.2px;margin-top: 14px; padding-top: 14px;margin-bottom:1.2px;padding-bottom:1.2px;
+}
+.znaczek_3{
+    width:74.9px;
+    height:auto;
+    margin-left: 7.2px; padding-left: 7.2px;margin-top: 20.2px; padding-top: 20.2px;margin-right: 7.2px; padding-right: 7.2px;
+    margin-bottom:2.2px;padding-bottom:2.2px;
+}
+.znaczek_4{
+    width:78.5px;
+    height:auto;
+    margin-top: 10px; padding-top: 10px; margin-left: -32px; padding-left: -32px;
+}
+.znaczek_5{
+    width:74.9px;
+    height:auto;
+    margin-top: 8px; padding-top: 8px;
+}
+.znaczek_6{
+    width:74.2px;
+    height:auto;
+    margin-top: 8px; padding-top: 8px;
+}
+.skontaktuj{
+    width:218.4px;
+    height:auto;
+    margin-top: 16.2px; 
+    padding-top: 16.2px;
+}
+#zaufanie{
+    font-size:9.36px;
+    letter-spacing: 1.4px;
+    line-height: 14.4px;
+}
+.carrefour{
+    margin-left: 7.2px; 
+    padding-left: 7.2px;
+    margin-right:10.8px;
+    padding-right:10.8px;
+    width:95px;
+    height:auto;
+}
+.walmart{
+    margin-left: 10.8px;
+     padding-left: 10.8px;
+     margin-right:10.8px;
+     padding-right:10.8px;
+     width:85px;
+    height:auto;
+}
+.jeronimo_martins{
+    margin-left: 10.8px; 
+    padding-left: 10.8px;
+    margin-right:7.2px;
+    padding-right:7.2px;
+    width:75.6px;
+    height:auto;
+}
+.zabka{
+    margin-left: 7.2px;
+    padding-left: 7.2px;
+    margin-right:5px;
+    padding-right:5px;
+    width:58.3px;
+    height:auto;
+}
+.tesco{
+    margin-left: 5x;
+    padding-left: 5px;
+    margin-right:7.2px;
+    padding-right:7.2px;
+    width:66.2px;
+    height:auto;
+}
+#navigation{
+    top:120px;
+    left:520px;
+}
+.o_nas{
+    font-size:10.1px;
+    letter-spacing: 1.8px;
+    line-height: 40px;
+    margin-bottom:14.4px;
+    margin-right:14.4px;
+}
+
+.details{
+    font-size:9.36px;
+    line-height: 10px;
+    
+}
+#mail{
+    font-size:19.4px;
+    line-height: 7.2px;
+    letter-spacing: 0.7px;
+    margin-left:14.4px;
+    margin-bottom:21.6px;
+}
+#o_nas{
+    margin-left:14.4px;
+    margin-bottom:16.6px;
+    
+}
+#browarna{
+    margin-left:14.4px;
+    line-height: 10px;
+}
+#piotrkow{
+    margin-left:14.4px;
+    line-height: 10px;
+}
+#polska{
+    margin-left:14.4px;
+    line-height: 10px;
+}
+.details_1{
+    font-size:9.4px;
+    line-height: 10px;
+}
+#footer{
+    bottom:0px;
+    left:520px;
+    font-size:9.4px;
+    line-height: 14.4px;
+}
+.all_rights{
+margin-left:194.4px;
+}
+.cookies{
+    margin-left:-21.6px;
+}
+.warunki{
+    margin-left:54px;
+}
+.polityka{
+    margin-left:-28.8px;
+}
+.box{
+    border: 28.8px solid transparent;
+  }
+
+.box1{
+    border: 14.4px 14.4px 0px 0px solid transparent;
+}
+
+}
+@media all and (max-width:1023px){
+    #drinki h3{
+        font-size:8.8px;
+        line-height:11px;
+        text-align: center;
+        letter-spacing: 1.5px;
+    }
+    #drinki p{
+        font-size:7.8px;
+        line-height:13.3px;
+        text-align: center;
+    }
+    .cydr{
+        width:auto;
+        height:215.4px;
+        margin-left: 11.1px; 
+        padding-left: 11.1px;
+        margin-top: 20px;
+        padding-top: 20px;
+        margin-right: 38px;
+        padding-right: 38px;
+        margin-bottom:8.3px;
+        padding-bottom:8.3px;
+        
+    }
+    .energy_drink{
+        width:auto;
+        height:215.4px;
+        margin-left: 33.8px;
+        padding-left: 33.8px;
+        margin-top: 23.1px; 
+        padding-top: 23.1px;
+        margin-right: 25.5px; 
+        padding-right: 25.5px;
+        margin-bottom:5px;
+        padding-bottom:5px;
+    }
+    .kualaa{
+        width:auto;
+        height:277px;
+        margin-left: 23.1px; padding-left: 23.1px;margin-top: 11.4px; padding-top: 11.4px; margin-bottom:-45.5px;padding-bottom:-45.5px;
+    }
+    #kuala{
+        text-decoration: underline;
+        margin-left:25.8px;
+        padding-left:25.8px;
+    }
+    #vodka{
+        margin-left:30.8px;
+        padding-left:30.8px;
+    }
+    #energy{
+        margin-left:10.4px;
+        padding-left:10.4px;
+    }
+    #classic{
+        margin-left:10.4px;
+        padding-left:10.4px;
+    }
+    #cider{
+     margin-left:-40px;
+     padding-left:-40px;
+    }
+
+    #jablko{
+     margin-left:-40px;
+     padding-left:-40px;
+    }
+
+
+}
